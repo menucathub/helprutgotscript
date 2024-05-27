@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quý - Trang cá nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quý</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Giới thiệu</h2>
+            <p>Tôi là một lập trình viên yêu thích công nghệ và thích chia sẻ kiến thức qua blog cá nhân.</p>
+        </section>
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Đây là nơi tôi chia sẻ những bài viết, kinh nghiệm và kiến thức về lập trình và công nghệ.</p>
+        </section>
+        <section id="projects" class="section">
+            <h2>Dự án</h2>
+            <p>Tôi đã tham gia và phát triển nhiều dự án, từ các ứng dụng web đến các phần mềm di động. Dưới đây là một số dự án tiêu biểu:</p>
+            <ul>
+                <li>Dự án A: Mô tả ngắn về dự án A.</li>
+                <li>Dự án B: Mô tả ngắn về dự án B.</li>
+                <li>Dự án C: Mô tả ngắn về dự án C.</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Liên hệ</h2>
+            <p>Bạn có thể liên hệ với tôi qua các mạng xã hội sau:</p>
+            <div class="social-links">
+                <a href="https://facebook.com/nguyenvana" target="_blank">Facebook</a>
+                <a href="https://linkedin.com/in/nguyenvana" target="_blank">LinkedIn</a>
+                <a href="https://github.com/nguyenvana" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Quý</p>
+    </footer>
+</body>
+</html>
